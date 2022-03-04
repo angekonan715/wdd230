@@ -1,0 +1,45 @@
+@media only screen and (min-width: 32.5em){
+.page_header {
+    background-color:rgb(1, 1, 54);
+    padding: 2.5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(1, 1, 54);
+
+}
+.page_header img{
+    max-width: 25vmin;
+    max-height: 25vmin;
+    
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    color:whitesmoke;
+    font-size: 10vmin;
+}
+
+ul>li{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(28, 4, 238, 0.19);
+    font-family:'Playfair Display', serif;
+}
+h2{
+    font-family:'Sansita', sans-serif;;
+}
+footer{
+    background-color:rgb(1, 1, 54);
+    text-align: center;
+    padding: 20px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(1, 1, 54);
+    color: whitesmoke;
+
+  }
+  
+  a:hover{
+    text-decoration: none;
+}
+   }

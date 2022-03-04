@@ -1,0 +1,239 @@
+body{
+    background-color: blanchedalmond;
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+}
+
+.pagehead {
+    background-color:#0493ED;
+    padding: 8px;
+    font-size: 5vmin;
+    margin-left: 8vmin;
+    margin-right: 8vmin;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+.pagehead h2{
+    flex: 2;
+    font-size: 6vmin;
+    align-self: center;
+    text-align: center;
+    margin-top: -10px;
+    color: rgb(1, 1, 77);
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 10vmin;
+    color: white;
+    margin-left: 30vmin;
+    margin-right: 30vmin;
+    list-style-type: none;
+    margin-top: -10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li{
+    background-color: #4473C0;
+    box-shadow: 0 4px 8px 0 rgb(29, 43, 9), 0 6px 20px 0 #4473C0;
+    font-size: 4vmin;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    --d: blue;
+    background: linear-gradient(90deg, transparent, yellow, transparent) top /
+		var(--d, 0) 10px no-repeat;
+    
+
+}
+a:hover{
+    text-decoration: none;
+    color: yellow;
+    
+
+}
+ 
+.pagebody{
+    display:flex;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.pagebody img{
+    border-radius: 10px;
+    min-width: 40%;
+    max-width: 25%;
+}
+.pagebody p{
+    font-size: 4vmin;
+    color:  rgb(29, 43, 9);
+}
+
+@media (min-width: 1297px){
+
+    
+nav ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 10vmin;
+    color: white;
+    margin-top: 30vmin;
+    margin-top: 30vmin;
+    list-style-type: none;
+    margin-top: -10px;
+    gap: 15px;
+    text-align: center;
+}
+.pagebody{
+    display:flex;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    margin-top: 15px;
+    gap: 20px;
+    text-align: center;
+}
+.pagebody img{
+    max-width: 100%;
+}
+
+.pesonas {
+    display: flex;
+    justify-content: center;
+    justify-items: left;
+    gap: 15px;
+   
+}
+  
+}
+
+@media only screen and (max-width:1296px){
+    
+    
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 10vmin;
+    color: white;
+    margin-top: 30vmin;
+    margin-top: 30vmin;
+    list-style-type: none;
+    margin-top: -10px;
+    gap: 15px;
+    text-align: center;
+}
+.pagebody{
+    display:flex;
+    flex-direction: column;
+    margin-left: 8vmin;
+    margin-right: 8vmin;
+    margin-top: 15px;
+    gap: 20px;
+}
+.pagebody img{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pesonas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: left;
+    gap: 15px;
+    
+}
+
+}
+
+
+
+div{
+    margin-left: 20vmin;
+    margin-right: 20vmin;
+}
+.audience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.audience img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+}
+
+.audience h2{
+    background-color:#4473C0;
+    font-size: 3.5vmin;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pesonas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+   
+}
+
+.pesonas h2{
+    color: #4473C0;
+    font-size: 3.5vmin;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pesonas p {
+    border: 2px solid gray;
+    background-color: #0493ED;
+}
+
+.scenario {
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.scenario h3 {
+    border: 2px solid gray;
+    background-color:#0493ED;
+    font-size: 3.5vmin;
+}
+ img {
+     max-width: 50%;
+ }
+
+ p{
+     font-size: 3vmin;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+
+ .typography {
+     font-size: 3.5vmin;
+     margin-left: 8vmin;
+     margin-right: 8vmin;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     color: #0493ED;
+ }
+
+ .typography h3 {
+     color: rgb(1, 1, 77);
+ }
