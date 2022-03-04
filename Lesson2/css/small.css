@@ -1,0 +1,96 @@
+/* 
+  ##Device = Low Resolution Tablets, Smartphones Mobiles
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (max-width: 767px) {
+
+    
+body{
+    background-color: antiquewhite;
+}
+.header{
+    background-color:rgb(187, 187, 194);
+    text-align:center;
+    margin-left:1vw;
+    margin-right:1vw;
+    border-radius: 20px;
+    color: rgb(4, 0, 255);
+    padding: 1vmin;
+    font-size: 5vmin;
+    font-family: 'Space Mono', monospace;
+    
+  }
+.content h3{
+  background-color:rgb(187, 187, 194);
+  border-radius: 10px 10px 0 0;
+  color: blue;
+  font-size: 3vmax;
+  padding: 1vmin;
+}
+.content p {
+  /*margin-top: -33px;*/
+  background-color: greenyellow;
+  border-radius:0 0 5px 5px;
+  font-size: 3vmin;
+  color: black;
+
+}
+.content a{
+  color: black;
+}
+img{
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(3, 2, 8, 0.2), 0 6px 20px 0 rgba(1, 1, 5, 0.19);
+    border-radius: 5px;
+    border: 2.5px solid gray;
+    margin-top: 10px;
+}
+
+.main{
+    padding: 20px;
+    background-color:lightblue;
+
+}
+
+/*.content > div{
+
+  box-shadow: 0 4px 8px 0 rgba(0, 22, 117, 0.2), 0 6px 20px 0 rgba(28, 4, 238, 0.19);
+}*/
+
+.content{
+  text-align: center;
+  margin-left:1.5vmin;
+  margin-right:1.5vmin;
+  /*grid-template-columns:repeat(3, 1fr);
+  grid-gap: 20px;*/
+ 
+}
+
+
+/*#contrast {
+  grid-column: 1 / 2;
+}
+#repetition {
+  grid-column: 2 / 3;
+}
+
+#white_space { 
+  grid-column: 3 / 4;
+}*/
+
+
+footer{
+  background-color:rgb(187, 187, 194);
+  text-align:center;
+  margin-left:1rem;
+  margin-right:1rem;
+  border-radius: 20px;
+  color: blue;
+  font-size: 2.5vmin;
+  font-family: 'Space Mono', monospace;
+}
+
+
+
+  }

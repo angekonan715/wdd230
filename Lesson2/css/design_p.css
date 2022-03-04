@@ -1,0 +1,87 @@
+
+body{
+    background-color: antiquewhite;
+}
+.header{
+    background-color:darkblue;
+    text-align:center;
+    margin-left:1rem;
+    margin-right:1rem;
+    border-radius: 20px;
+    color: white;
+    padding: 1vmin;
+    font-size: 3vmin;
+    font-family: 'Space Mono', monospace;
+    
+  }
+.content h3{
+  background-color:darkblue;
+  border-radius: 10px 10px 0 0;
+  color:white;
+  font-size: 5vmin;
+  padding: 2vmin;
+}
+.content p {
+  /*margin-top: -33px;*/
+  background-color: gray;
+  border-radius:0 0 5px 5px;
+  font-size: 3.5vmin;
+  color: greenyellow;
+
+}
+.content a{
+  color: white;
+}
+img{
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(3, 2, 8, 0.2), 0 6px 20px 0 rgba(1, 1, 5, 0.19);
+    border-radius: 5px;
+    border: 2.5px solid gray;
+    margin-top: 10px;
+}
+
+.main{
+    padding: 20px;
+    background-color:lightblue;
+
+}
+
+/*.content > div{
+
+  box-shadow: 0 4px 8px 0 rgba(0, 22, 117, 0.2), 0 6px 20px 0 rgba(28, 4, 238, 0.19);
+}*/
+
+.content{
+  text-align: center;
+  margin-left:1.5vmin;
+  margin-right:1.5vmin;
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap: 20px;
+ 
+}
+
+
+#contrast {
+  grid-column: 1 / 2;
+}
+#repetition {
+  grid-column: 2 / 3;
+}
+
+#white_space { 
+  grid-column: 3 / 4;
+}
+
+
+footer{
+  background-color:darkblue;
+  text-align:center;
+  margin-left:1rem;
+  margin-right:1rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 2.5vmin;
+  font-family: 'Space Mono', monospace;
+}
+
