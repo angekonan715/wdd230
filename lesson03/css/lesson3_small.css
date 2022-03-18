@@ -32,12 +32,13 @@ nav ul{
     justify-content: center;
     column-gap: 10vmin;
     color: white;
-    margin-left: 30vmin;
+    /*margin-left: 30vmin;*/
     margin-right: 30vmin;
     list-style-type: none;
     margin-top: -10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 nav ul li{
@@ -198,7 +199,7 @@ div{
 }
 .pesonas p {
     border: 2px solid gray;
-    background-color: #0493ED;
+    background-color: #0493ED;      
 }
 
 .scenario {

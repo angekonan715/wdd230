@@ -1,0 +1,158 @@
+body{
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: gray;
+    color: blue
+
+}
+/*Style the header of our page*/
+
+header {
+    background-color: rgba(0, 0, 0.2, 0.2);
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    padding: 10px;
+}
+
+header div.heading1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+header div.heading1 img{
+    flex: 1;
+    align-self: flex-start;
+    max-width: 20vmin;
+    max-height: 20vmin;
+}
+
+header div.heading1 h1 {
+    flex: 2;
+    align-self: center;
+    font-size: 4.5vmin;
+    text-align: center;
+}
+
+.socialMediaIcon {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1.5rem;
+    left: 2rem;
+
+}
+
+header div.heading1 nav {
+    align-self: flex-end;
+    padding: 0px;
+    margin: 0;
+    position: relative;
+    top: -3rem;
+}
+
+
+/*Style the navigator*/
+nav button#hamburgerButton {
+    margin: 0.5rem 1rem;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: black;
+    
+}
+
+nav.navigator ul {
+    padding: 0px;
+    margin: 0;
+    display: none;
+}
+nav.navigator ul.open {display: block;}
+
+
+nav.navigator ul li a{
+    display: block;
+    padding: .3rem .2vw;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+/* Style button*/
+
+#hamburgerButton span:nth-child(1) {display: block; }
+#hamburgerButton span:nth-child(2) {display: none; }
+
+#hamburgerButton.open span:nth-child(1) {display: none;}
+#hamburgerButton.open span:nth-child(2) {display: block; }
+
+.date{
+    display: block;
+    background-color: rgba(0, 0.2,0.5, 0.3);
+    padding: .5rem 1rem;
+    text-align: center;
+    font-size: 3.5vmin ;
+}
+
+
+main{
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+main div {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+}
+/*Style footer */
+footer {
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    background-color: rgba(0, 0, 0.2, 0.2);
+    padding: 10px;
+    
+}
+
+footer  div.footerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 3.5vmin;
+
+}
+footer div.footerInfo img {
+    max-width: 40%;
+}
+
+footer div.footerInfo address {
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.5vmin;
+    
+}

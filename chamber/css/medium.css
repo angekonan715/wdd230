@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em){
+    main{
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding: 20px;
+        flex-wrap: wrap;
+    
+    }
+    main div {
+        flex: 1 1 auto;
+    }
+
+    footer  div.footerInfo {
+        display: flex;
+        margin-top: 10px;
+        font-size: 3.5vmin;
+    
+    }
+    
+    footer div.footerInfo img {
+        max-width: 25%;
+    }
+
+
+    footer ul {
+        display: flex;
+        font-size: 3.5vmin;
+        
+    }
+
+
+
+
+}
