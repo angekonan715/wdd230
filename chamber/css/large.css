@@ -1,7 +1,91 @@
 @media only screen and (min-width: 64em){
-    header nav ul {
+    main{
+        margin-left: 5vmin;
+        margin-right: 5vmin;
         display: flex;
-        flex-direction: row;
+        justify-content: space-evenly;
+        gap: .5rem;
+        padding: 20px;
+        flex-wrap: wrap;
+    
     }
+    main div {
+       color: blue;
+    }
+
+    
+header div.heading1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
+    align-items:center ;
+    gap: 20px;
+    flex-wrap: nowrap;
+    
+}
+header div.heading1 img{
+    order: 1;
+    align-self: flex-start;
+    max-width: 20vmin;
+    max-height: 20vmin;
+}
+
+header div.heading1 h1 {
+    order: 2;
+    align-self: center;
+    font-size: 4.5vmin;
+    text-align: center;
+}
+
+nav.navigator {
+    order: 3;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.socialMediaIcon {
+    order: 4;
+    display: flex;
+    flex-direction: column;
+
+}
+#navUl {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+nav.navigator ul li a {
+    border: 1px solid rgba(0,0,0, 0.1);
+    font-size: 3vmin;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    nav button#hamburgerButton {
+        display: none;
+        
+    }
+
+    footer  div.footerInfo {
+        display: flex;
+        margin-top: 10px;
+        font-size: 3.5vmin;
+    
+    }
+    
+    footer div.footerInfo img {
+        max-width: 25%;
+    }
+
+
+    footer ul {
+        display: flex;
+        font-size: 3.5vmin;
+        
+    }
+
     
 }

@@ -11,11 +11,11 @@ ul li{
 
 a{
     text-decoration: none;
+    display: block;
 }
 
 a:hover{
     background-color: gray;
-    color: blue
 
 }
 /*Style the header of our page*/
@@ -30,6 +30,9 @@ header {
 header div.heading1 {
     display: flex;
     justify-content: space-between;
+    justify-items: center;
+    align-items:center ;
+    flex-wrap: wrap;
     gap: 20px;
 }
 header div.heading1 img{
@@ -47,21 +50,19 @@ header div.heading1 h1 {
 }
 
 .socialMediaIcon {
-    flex: 3;
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: 1.5rem;
-    left: 2rem;
 
+}
+.socialMediaIcon a{
+    display: block;
 }
 
 header div.heading1 nav {
     align-self: flex-end;
     padding: 0px;
     margin: 0;
-    position: relative;
-    top: -3rem;
 }
 
 
