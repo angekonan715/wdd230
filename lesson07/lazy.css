@@ -1,7 +1,4 @@
-picture > img{
-    width: 300px;
-    height: 400px;
-}
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,10 +8,12 @@ body {
 
 img[data-src] {
     filter: blur(0.2em);
-    -webkit-filter: blur(0.2em);
+    -webkit-filter: blur(0.1em);
 }
   
-img {
+picture > img{
+    width: 300px;
+    height: 400px;
     filter: blur(0em);
     transition: filter 1s;
     -webkit-transition: filter 1s;
