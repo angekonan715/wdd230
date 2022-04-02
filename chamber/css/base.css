@@ -225,6 +225,164 @@ footer div.footerInfo address {
     text-align: center;
 }
 
+
+/*Discover.html css*/ 
+.lazyLoadingBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 5vmin;
+    margin-right: 5vmin ;
+    
+
+}
+.lazyLoadingBody picture {
+    border: 1px solid gray;
+    filter: blur(0em);
+    -webkit-filter: blur(0em);
+    padding: 2rem;
+
+}
+.lazyLoadingBody img{
+    width: 500px;
+    height: 600px;
+
+
+}
+
+
+
+img[data-src] {
+    filter: blur(0.3em);
+    -webkit-filter: blur(0.3em);
+}
+
+img[data-src]:hover {box-shadow: 0 0 50px rgb(173, 10, 10);}
+
+.pict-10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    background-color: gray;
+    padding: 1rem;
+}
+
+
+.pict-1{
+    background-color: lightcoral;
+}
+
+.pict-3{
+    background-color: #29AAFB;
+}
+
+.pict-5{
+    background-color: gray;
+}
+
+.pict-7{
+    background-color: white;
+}
+
+.pict-9{
+    background-color:lightblue;
+}
+
+
+
+.pict-10 img:first-child {
+    border-radius: 50%;
+    float: left; 
+    padding: 0 20px 20px 0;
+}
+picture img:first-child:hover {
+    box-shadow: 0 0 50px black
+}
+
+picture p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.pict-1 img:first-child {
+    border-radius: 5px 150px;
+    
+}
+.pict-2 img:first-child {
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+}
+.pict-3 img:first-child {
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+.pict-4 img:first-child {
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.pict-5 img:first-child {
+    border-radius: 75%;
+    -webkit-border-radius: 75%;
+    -moz-border-radius: 75%;
+    -ms-border-radius: 75%;
+    -o-border-radius: 75%;
+}
+.pict-6 img:first-child {
+    border-radius: 5px 150px 10px 30px;
+    -webkit-border-radius: 5px 150px 10px 30px;
+    -moz-border-radius: 5px 150px 10px 30px;
+    -ms-border-radius: 5px 150px 10px 30px;
+    -o-border-radius: 5px 150px 10px 30px;
+}
+.pict-7 img:first-child {
+    border-radius: 5px 150px;
+    
+}
+.pict-8 img:first-child {
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+
+.webStorage{
+    background-color: #29AAFB;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.today {
+	color: black;
+}
+
+
 footer ul {
     display: flex;
     flex-direction: column;

@@ -8,7 +8,10 @@ function toggleMenu() {
     document.getElementById("navUl").classList.toggle("open");
     
 
+
 }
+
+
 const x = document.getElementById("hamburgerButton");
 x.onclick = toggleMenu;
 
