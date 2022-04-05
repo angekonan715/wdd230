@@ -408,7 +408,7 @@
 
 
     .mainForm {
-        margin: 0;
+       
         border: 1px solid #bbb;
         padding: 0.5rem;
         width: 450px;
@@ -417,7 +417,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: auto auto;
         margin-top: 3vmin;
         margin-bottom: 4vmin;
     }
