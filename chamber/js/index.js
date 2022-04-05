@@ -25,3 +25,12 @@ select.innerHTML = `: ${document.lastModified}`;
 
 
 
+    // Set the value of the "date and Time " field
+    var hours = d.getHours();
+    var mins = d.getMinutes();
+    var seconds = d.getSeconds();
+    document.getElementById("dateTime").value = d.toDateString() + hours + ":" + mins + ":" + seconds ;
+
+
+
+

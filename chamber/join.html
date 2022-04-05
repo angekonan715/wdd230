@@ -30,7 +30,9 @@
     <header>
         <div class="heading1">
             <div class="logo"><img src="images/logo.png" alt="Logo"></div>
-            <div class="heading_title"><h1>Abidjan Chamber Of Commerce</h1></div>
+            <div class="heading_title">
+                <h1>Abidjan Chamber Of Commerce</h1>
+            </div>
             <div class="socialMediaIcon">
                 <a href="#"><img src="images/facebookIcon.png"></a>
                 <a href="#"><img src="images/messenger.png"></a>
@@ -50,62 +52,36 @@
         </div>
         <div class="date"> </div>
     </header>
-    <main>
-        <Div class="hero">
-            <h3>Hero Image and Call To action</h3>
-            <img src="images/heroImage.jpg" alt="Train or Be trained">
-            <a href="join.html">Join Us to Either Train or To be Trained</a>
-        </Div>
-        <Div class="news">
-            <h3>News</h3>
-            <img src="images/broadcast.jpg" alt="UpComing broadcast">
-            <h4>
-                UpComing Broadcast<br>
-                Next Saturday by 10 AM (UTC+00)
-            </h4>
-        </Div>
-        <Div class="event">
-            <h3>Event(s)</h3>
-            <div class="events">
-                <section class="section1"> 
-                   <h4>Coaching</h4>
-                   <img src="images/coaching.jpg"  alt="">
-                   <p>Your Business muscles <br>
-                       will be strong <br>
-                    as a trained athlete</p>
-                </section>
-                <section class="section2">
-                    <h4>MasterMind Class</h4>
-                    <img src="images/mastermind.jpg" alt="">
-                </section>
-                <section class="section3">
-                    <h4>Business strategy</h4>
-                    <img src="images/businessStrategy.jpg" alt="">
-                </section>
-                <section class="section">
-                    <h4>Business Opportunity Journal</h4>
-                    <img src="images/opportunities.jpg" alt="">
-                </section>
+    <main class="mainForm">
+        <h1>Please Fill This Form</h1>
+        <form action="/thankyou.html">
+            <label for="fname">Fist Name: </label>
+            <input type="text" name="fname" id="fname" required>
+            <label for="lname">Last Name: </label>
+            <input type="text" name="lname" id="lname" required>
+            <label for="btitle">Position Title: </label>
+            <input type="text" name="btitle" id="btitle" pattern="[a-zA-Z0-9]{7}">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="username@gmail.com" required>
+            <label for="cphone">Cell Phone Number: </label>
+            <input type="tel" name="cphone" id="cphone" required>
+            <label for="bname">Business Name: </label>
+            <input type="text" name="bname" id="bname" required>
+            <label for="levels">Membership Level: </label>
+            <input list="levels" name="level" id="mlevel" required>
+            <datalist id="levels">
+                <option value="NP Membership(no fee)">
+                <option value="Bronze Membership">
+                <option value="Silver Membership">
+                <option value="Gold Membership">
+            </datalist>
+            <label for="Bdescription">Business Description:</label>
+            <textarea name="Business Description" rows="10" placeholder="Describe your business here"></textarea>
+            <label for="Time&Date">Time and Date</label>
+            <input type="hidden" name="Time&date" id="dateTime" value="">
+            <button id="btnSubmit" type="submit"><a href="thankYou.html">Submit</a></button>
 
-            </div>
-        </Div>
-        <Div class="join">
-            <h3>Join</h3>
-            <img src="images/join.jpg" alt="A woman alerting other from a microphone">
-            <a href="joinUs.html">Join Us</a>
-        </Div>
-        <Div class="partnership">
-            <h3>Partnership</h3>
-            <img src="images/partership.jpg" alt="Two hands">
-        </Div>
-        <Div>
-            <h3>Contact Us</h3>
-            <img src="" alt = "phone call icon">
-        </Div>
-        <Div>
-            <h3>spotlights3</h3>
-        </Div>
-
+        </form>
     </main>
     <footer>
         <div class="footerInfo">

@@ -1,16 +1,16 @@
-body{
+body {
     margin: 0 auto;
     background-color: antiquewhite;
 
 }
 
-ul li{
+ul li {
     text-decoration: none;
     list-style-type: none;
     display: block;
 }
 
-a{
+a {
     text-decoration: none;
     display: block;
 }
@@ -19,16 +19,18 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+
 main div {
     border: 1px solid rgba(0, 0, 0, 0.2);
     display: block;
 
 }
+
 /*Style the header of our page*/
 
 
 header {
-    background-color:#29AAFB;
+    background-color: #29AAFB;
     margin-left: 5vmin;
     margin-right: 5vmin;
     padding: 10px;
@@ -38,7 +40,7 @@ header {
 
 .heading1 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-direction: column;
 
 }
@@ -49,7 +51,7 @@ header {
     margin: 0;
 }
 
-.heading_title{
+.heading_title {
     display: none;
     order: 2;
     align-self: center;
@@ -67,6 +69,7 @@ header {
     top: 0px;
     left: 30px;
 }
+
 .socialMediaIcon img {
     max-width: 25%;
 }
@@ -86,7 +89,7 @@ nav button#hamburgerButton {
     border: none;
     font-size: 2rem;
     color: black;
-    
+
 }
 
 nav.navigator ul {
@@ -94,10 +97,13 @@ nav.navigator ul {
     margin: 0;
     display: none;
 }
-nav.navigator ul.open {display: block;}
+
+nav.navigator ul.open {
+    display: block;
+}
 
 
-nav.navigator ul li a{
+nav.navigator ul li a {
     display: block;
     padding: .3rem .2vw;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -106,22 +112,32 @@ nav.navigator ul li a{
 
 /* Style button*/
 
-#hamburgerButton span:nth-child(1) {display: block; }
-#hamburgerButton span:nth-child(2) {display: none; }
+#hamburgerButton span:nth-child(1) {
+    display: block;
+}
 
-#hamburgerButton.open span:nth-child(1) {display: none;}
-#hamburgerButton.open span:nth-child(2) {display: block; }
+#hamburgerButton span:nth-child(2) {
+    display: none;
+}
 
-.date{
+#hamburgerButton.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerButton.open span:nth-child(2) {
+    display: block;
+}
+
+.date {
     display: block;
     background-color: lightcoral;
     padding: .5rem 1rem;
     text-align: center;
-    font-size: 3.5vmin ;
+    font-size: 3.5vmin;
 }
 
 
-main{
+main {
     margin-left: 5vmin;
     margin-right: 5vmin;
     display: flex;
@@ -129,11 +145,11 @@ main{
     gap: .5rem;
 
 }
- 
+
 main h3 {
     font-style: italic;
     font-weight: bolder;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: lightcoral;
 }
@@ -170,7 +186,7 @@ main h3 {
 
 }
 
-h4{
+h4 {
     color: #29AAFB;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem;
@@ -181,7 +197,7 @@ h4{
     top: -12rem;
     left: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style:italic;
+    font-style: italic;
     font-weight: bold;
     font-stretch: expanded;
 }
@@ -194,7 +210,8 @@ h4{
     font-weight: bolder;
     font-size: 3rem;
 }
-.join a:hover{
+
+.join a:hover {
     color: yellowgreen;
 }
 
@@ -204,10 +221,10 @@ footer {
     margin-right: 5vmin;
     background-color: #29AAFB;
     padding: 10px;
-    
+
 }
 
-footer  div.footerInfo {
+footer div.footerInfo {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -217,6 +234,7 @@ footer  div.footerInfo {
     font-size: 3.5vmin;
 
 }
+
 footer div.footerInfo img {
     max-width: 40%;
 }
@@ -226,7 +244,7 @@ footer div.footerInfo address {
 }
 
 
-/*Discover.html css*/ 
+/*Discover.html css*/
 .lazyLoadingBody {
     display: flex;
     flex-direction: column;
@@ -235,10 +253,11 @@ footer div.footerInfo address {
     gap: 1.5rem;
     margin-top: 3rem;
     margin-left: 5vmin;
-    margin-right: 5vmin ;
-    
+    margin-right: 5vmin;
+
 
 }
+
 .lazyLoadingBody picture {
     border: 1px solid gray;
     filter: blur(0em);
@@ -246,7 +265,8 @@ footer div.footerInfo address {
     padding: 2rem;
 
 }
-.lazyLoadingBody img{
+
+.lazyLoadingBody img {
     width: 300px;
     height: 400px;
 
@@ -260,9 +280,11 @@ img[data-src] {
     -webkit-filter: blur(0.3em);
 }
 
-img[data-src]:hover {box-shadow: 0 0 50px rgb(173, 10, 10);}
+img[data-src]:hover {
+    box-shadow: 0 0 50px rgb(173, 10, 10);
+}
 
-.pict-10{
+.pict-10 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -272,38 +294,39 @@ img[data-src]:hover {box-shadow: 0 0 50px rgb(173, 10, 10);}
 }
 
 
-.pict-1{
+.pict-1 {
     background-color: lightcoral;
 }
 
-.pict-3{
+.pict-3 {
     background-color: #29AAFB;
 }
 
-.pict-5{
+.pict-5 {
     background-color: gray;
 }
 
-.pict-7{
+.pict-7 {
     background-color: white;
 }
 
-.pict-9{
-    background-color:lightblue;
+.pict-9 {
+    background-color: lightblue;
 }
 
 
 
 .pict-10 img:first-child {
     border-radius: 50%;
-    float: left; 
+    float: left;
     padding: 0 20px 20px 0;
 }
+
 picture img:first-child:hover {
     box-shadow: 0 0 50px black
 }
 
-picture p{
+picture p {
     text-align: center;
     font-size: 1.5rem;
     margin: 0 auto;
@@ -311,8 +334,9 @@ picture p{
 
 .pict-1 img:first-child {
     border-radius: 5px 150px;
-    
+
 }
+
 .pict-2 img:first-child {
     border-radius: 25%;
     -webkit-border-radius: 25%;
@@ -320,6 +344,7 @@ picture p{
     -ms-border-radius: 25%;
     -o-border-radius: 25%;
 }
+
 .pict-3 img:first-child {
     border-radius: 30%;
     -webkit-border-radius: 30%;
@@ -327,6 +352,7 @@ picture p{
     -ms-border-radius: 30%;
     -o-border-radius: 30%;
 }
+
 .pict-4 img:first-child {
     border-radius: 10%;
     -webkit-border-radius: 10%;
@@ -334,6 +360,7 @@ picture p{
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
 }
+
 .pict-5 img:first-child {
     border-radius: 75%;
     -webkit-border-radius: 75%;
@@ -341,6 +368,7 @@ picture p{
     -ms-border-radius: 75%;
     -o-border-radius: 75%;
 }
+
 .pict-6 img:first-child {
     border-radius: 5px 150px 10px 30px;
     -webkit-border-radius: 5px 150px 10px 30px;
@@ -348,10 +376,12 @@ picture p{
     -ms-border-radius: 5px 150px 10px 30px;
     -o-border-radius: 5px 150px 10px 30px;
 }
+
 .pict-7 img:first-child {
     border-radius: 5px 150px;
-    
+
 }
+
 .pict-8 img:first-child {
     border-radius: 10%;
     -webkit-border-radius: 10%;
@@ -361,25 +391,75 @@ picture p{
 }
 
 
-.webStorage{
+.webStorage {
     background-color: #29AAFB;
     font-size: 1.5rem;
     padding: 1rem;
 }
 
 .label {
-	font-family: Arial, sans-serif;
-	font-weight: 700;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
 }
 
 #visits {
-	color: navy;
-	font-weight: bolder;
-	font-size: larger;
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .today {
-	color: black;
+    color: black;
+}
+.mainForm {
+    border: 1px solid #bbb;
+    padding: 0.3rem;
+    width: 75%;
+    background-color: gray;
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    margin-top: 1vmin;
+    margin-bottom: 4vmin;
+}
+
+form {
+    display: grid;
+    grid-gap: 0.25rem;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3vmin;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+    font-size: 2.8vmin;
+    align-self:center;
+    font-weight: bold;
+}
+
+label {
+    text-align: right;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #bed;
+}
+
+button {
+    grid-column: 1/3;
+    background-color: lightcoral;
 }
 
 
@@ -390,5 +470,5 @@ footer ul {
     align-items: center;
     text-align: center;
     font-size: 3.5vmin;
-    
+
 }
