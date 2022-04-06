@@ -481,6 +481,7 @@ button {
     border: 1px solid gray;
     padding: 0.5vmin;
     font-size: 3vmin;
+    box-shadow: 0 0 10px #29AAFB;
 }
 
 .companyName {
@@ -492,6 +493,7 @@ button {
 
 .cards section img{
     max-width: 50%;
+    box-shadow: 0 0 50px rgb(248, 79, 79);
 }
 
 .cards_2 section{
