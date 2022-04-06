@@ -1,3 +1,5 @@
+@media only screen and (max-width: 32.4em) {
+
 body {
     margin: 0 auto;
     background-color: antiquewhite;
@@ -236,7 +238,7 @@ footer div.footerInfo {
 }
 
 footer div.footerInfo img {
-    max-width: 40%;
+    max-width: 25%;
 }
 
 footer div.footerInfo address {
@@ -462,6 +464,72 @@ button {
     background-color: lightcoral;
 }
 
+.mainDirectory {
+    margin-left: 8vmin;
+    margin-right: 8vmin;
+    display: block;
+
+}
+.cards {
+    text-align: center;
+}
+.cards_2{
+    text-align: center;
+}
+
+.cards section{
+    border: 1px solid gray;
+    padding: 0.5vmin;
+    font-size: 3vmin;
+}
+
+.companyName {
+    color:#29AAFB;
+}
+.companyPhone{
+    color: #29AAFB;
+}
+
+.cards section img{
+    max-width: 50%;
+}
+
+.cards_2 section{
+    font-size: 2vmin;
+}
+
+.cards_2 section ul{
+    display: block;
+    gap: 1.5rem;
+    padding: 0.5rem;
+}
+.cards_2 section:nth-child(1){
+    background-color: lightblue;
+
+}
+.cards_2 section:nth-child(3){
+    background-color: lightblue;
+}
+.cards_2 section:nth-child(5){
+    background-color: lightblue;
+}
+.cards_2 section:nth-child(7){
+    background-color: lightblue;
+}
+.cards_2 section:nth-child(9){
+    background-color: lightblue;
+}
+.cards_2 section:nth-child(11){
+    background-color: lightblue;
+}
+
+footer div.footerInfo {
+    display: flex;
+    margin-top: 10px;
+    font-size: 3.5vmin;
+
+}
+
 
 footer ul {
     display: flex;
@@ -470,5 +538,7 @@ footer ul {
     align-items: center;
     text-align: center;
     font-size: 3.5vmin;
+
+}
 
 }

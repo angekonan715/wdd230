@@ -1,22 +1,72 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
 
 <head>
+    <title>
+        Abidjan Chanber Of Commerce
+    </title>
     <meta charset="utf-8">
-    <title>Week08 Table</title>
-    <script defer src="js/index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kouadio Ange Konan">
+    <script defer src="js/directory.js"></script>
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
+
+
 </head>
 
 <body>
     <header>
-        <h1>Latter-day Prophets</h1>
-      </header>
-      <main>
+        <div class="heading1">
+            <div class="logo"><img src="images/logo.png" alt="Logo"></div>
+            <div class="heading_title">
+                <h1>Abidjan Chamber Of Commerce</h1>
+            </div>
+            <div class="socialMediaIcon">
+                <a href="#"><img src="images/facebookIcon.png"></a>
+                <a href="#"><img src="images/messenger.png"></a>
+                <a href="#"><img src="images/instagram.png"></a>
+            </div>
+            <nav class="navigator">
+                <button type id="hamburgerButton"><span>&#9776;</span><span>X</span></button>
+                <ul id="navUl">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="#">Q&A</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="date"> </div>
+    </header>
+    <main class="mainDirectory">
         <div class="cards"></div>
-      </main>
-      <footer>
-        <strong>Kouadio Ange Konan</strong> | 🏛 BYU-Idaho | WDD 230
-      </footer>
+        <div class="cards_2"></div>
+    </main>
+    <footer>
+        <div class="footerInfo">
+            <img src="images/logo.png" alt="logo image">
+            <h3>Abidjan Chamber of Commerce</h3>
+            <address>
+                11 Sojefia, Cococdy<br>
+                Abidjan, Cote d'Ivoire 22<br><br>
+                info@abidjanc.com<br><br>
+            </address>
+            <a href="#">Link To a Map</a>
+        </div>
+        <hr>
+        <ul>
+            <li>&copy;<span id="footerYear"></span> Abidjan Chamber</li>
+            <li><strong>Kouadio Ange Konan</strong></li>
+            <li>WDD 230 Project</li>
+            <li>Last Modification: <strong><span id="lastDateModif"></span></strong></li>
+        </ul>
+
+    </footer>
 
 </body>
 

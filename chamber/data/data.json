@@ -2,7 +2,7 @@
     "companies": [
       {
         "name": "ONEP",
-        "address": " II Plateaux Vallons Rue J93 Ilot 212 Lot 2470",
+        "address": "II Plateaux Vallons Rue J93 Ilot 212 Lot 2470",
         "phone": "(+225) 27 22 51 43 00",
         "image": "https://angekonan715.github.io/wdd230/chamber/data/images/onep.jpg",
         "website": "http://onepci.net/fr/acceuil/",
@@ -10,7 +10,7 @@
       },
       {
         "name": "Groupe EUROFIND",
-        "address": "01 BP 20595 - Zone Portuaire Industrielle,Lomé, Togo",
+        "address": "Zone Portuaire Industrielle,Lomé, Togo",
         "phone": "+228 22 27 02 50 ",
         "image": "https://angekonan715.github.io/wdd230/chamber/data/images/Groupe_Eurofind.jpg",
         "website": "https://www.eurofindgroup.com/",
@@ -26,34 +26,34 @@
       },
       {
         "name": "AGEDI",
-        "address": " Cocody Danga - Rue des Jasmins - 08 BP 4131 Abidjan 08 - Côte d’Ivoire",
+        "address": " Cocody Danga - 08 BP 4131 Abidjan 08 ",
         "phone": "+225 27 22 44 74 20",
         "image": "https://angekonan715.github.io/wdd230/chamber/data/images/AGEDI.jpg",
-        "website": "www.agedi.ci",
+        "website": "https://www.agedi.ci",
         "creation": "May 2, 2013"
       },
       {
         "name": "ENSBTP",
-        "address": " Yopougon Ananeraie - Route de Dabou - 23 BP 722 ABIDJAN 23 - Côte d’Ivoire",
+        "address": " Yopougon Ananeraie - 23 BP 722 ABIDJAN 23 ",
         "phone": "+225 27 23 50 99 90",
         "image": "https://angekonan715.github.io/wdd230/chamber/data/images/ENSBTP.jpg",
-        "website": "www.ensbtp.com",
+        "website": "https://www.ensbtp.com",
         "creation": "Nov 1, 1997"
       },
       {
         "name": "IMMOBILIARE SA",
-        "address": " Immeuble Immobiliare Riviera Faya - 27 BP 467 Abidjan 27 - Côte d’Ivoire",
+        "address": " Riviera Faya - 27 BP 467 Abidjan 27",
         "phone": "+225 07 89 94 57 26",
         "image": "https://angekonan715.github.io/wdd230/chamber/data/images/Immobiliare.jpg",
-        "website": " www.immobiliare.ci",
+        "website": " https://www.immobiliare.ci",
         "creation": "Jan 1, 2003"
       },
       {
         "name": "SOGELUX",
-        "address": " Boulevard de Marseille - Treichville - Zone 2 - 18 BP 1686 Abidjan 18 - Côte d’Ivoire",
+        "address": " Boulevard de Marseille - 18 BP 1686 Abidjan 18",
         "phone": "+225 27 21 34 99 99",
         "image": "https://angekonan715.github.io/wdd230/chamber/data/images/SOGELUX.jpg",
-        "website": "www.sogelux.net",
+        "website": "https://www.sogelux.net",
         "creation": "june 2003"
       },
       {
@@ -66,7 +66,7 @@
       },
       {
         "name": "NSIA BANK",
-        "address": " 8-10 avenue Joseph Anoma – 01 BP 1274 Abidjan 01 – République de Côte d'Ivoire.",
+        "address": " 8-10 avenue Joseph Anoma - 01 BP 1274 Abidjan 01",
         "phone": "(+225) 07 80 200 800",
         "image": "https://angekonan715.github.io/wdd230/chamber/data/images/NSIA.jpg",
         "website": "https://www.nsiabanque.ci/",
@@ -77,7 +77,7 @@
         "address": "Cocody, 04 BP 945 Abidjan 04",
         "phone": "(+225) 27 22 48 34 00",
         "image": "https://angekonan715.github.io/wdd230/chamber/data/images/BNETD.jpg",
-        "website": "www.bnetd.ci",
+        "website": "https://www.bnetd.ci",
         "creation": "july 31, 1994"
       },
       {
@@ -90,10 +90,10 @@
       },
       {
         "name": "YANN' DIGITAL TECHNOLOGIES",
-        "address": " Bonoumin, Abidjan, Côte d'Ivoire",
+        "address": " Bonoumin, Abidjan,",
         "phone": "(+225) 01 40 12 46 37",
         "image": "https://angekonan715.github.io/wdd230/chamber/data/images/yanntechnologie.jpg",
-        "website": "http://www.yanndigitaltechnologies.com",
+        "website": "http://yanndigitaltechnologies.com",
         "creation": "jan 1, 2018"
       }
      

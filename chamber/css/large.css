@@ -29,6 +29,14 @@
         display: block;
 
     }
+    header {
+        background-color: #29AAFB;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(images);
+    }
 
     .heading1 {
         display: grid;
@@ -40,14 +48,19 @@
         display: block;
         grid-column: 1/2;
         grid-row: 1/2;
+        width: 30%;
     }
 
     .heading_title {
         display: block;
         grid-row: 2/3;
-        font-size: 4vmin;
         grid-column: 2/3;
-        margin-top: -2.5rem;
+        
+    }
+    .heading_title h1{
+        margin-top: -3rem;
+        font-size: 5vmin;
+
     }
 
     .socialMediaIcon {
@@ -69,6 +82,7 @@
 
     .navigator ul {
         display: block;
+        
     }
 
     .navigator #hamburgerButton {
@@ -90,7 +104,8 @@
     }
 
     nav.navigator ul a {
-        font-size: 3.5vmin;
+        font-size: 3vmin;
+        margin-bottom: 1.5rem;
         font-weight: bolder;
         font-family: Arial, Helvetica, sans-serif;
         background-color: gray;
@@ -102,6 +117,13 @@
         background-color: lightcoral;
         color: black;
     }
+    .date {
+    display: block;
+    background-color: lightcoral;
+    padding: .5rem 1rem;
+    text-align: center;
+    font-size: 3.5vmin;
+}
 
 
     main div {
@@ -486,25 +508,92 @@
     }
 
     /*directory css*/
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: .5rem;
-    }
-    
-    img{
-        max-width: 100%;
-    }
-    .prophetName{
-        color:blue
-    }
-    .birthdayCss{
-        color: blue;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bolder;
-        font-size:1rem;
+
+    .mainDirectory{
+        display: block;
+
     }
 
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .cards_2{
+        padding: 3rem;
+    }
+
+    .cards section{
+        border: 1px solid gray;
+    }
+
+    .companyName {
+        color:#29AAFB;
+    }
+    .companyPhone{
+        color: #29AAFB;
+    }
+    
+    .cards section img{
+        max-width: 100%;
+    }
+
+    .cards_2 ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2.5vmin;
+        border: none;
+    }
+    .cards_2 section ul{
+        display: grid;
+        padding: 0.5rem;
+        font-size: 2.5vmin;
+        border: none;
+        
+    }
+    .cards_2 section{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.1rem;
+        font-size: 2.5vmin;
+        border: none;
+        
+    }
+
+    .cards_2 section:nth-child(1){
+        background-color: lightblue;
+
+    }
+    .cards_2 section:nth-child(3){
+        background-color: lightblue;
+    }
+    .cards_2 section:nth-child(5){
+        background-color: lightblue;
+    }
+    .cards_2 section:nth-child(7){
+        background-color: lightblue;
+    }
+    .cards_2 section:nth-child(9){
+        background-color: lightblue;
+    }
+    .cards_2 section:nth-child(11){
+        background-color: lightblue;
+    }
+
+    .companyPhone{
+        font-size: 2.5vmin;
+    }
+    .companyAddress{
+        font-size: 3vmin;
+    }
 
     footer div.footerInfo {
         display: flex;
@@ -521,8 +610,37 @@
 
     footer ul {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         font-size: 3.5vmin;
 
+    }
+    footer {
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        background-color: #29AAFB;
+        padding: 10px;
+    
+    }
+    
+    footer div.footerInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 3.5vmin;
+    
+    }
+    
+    footer div.footerInfo img {
+        max-width: 25%;
+    }
+    
+    footer div.footerInfo address {
+        text-align: center;
     }
 
 
