@@ -58,7 +58,7 @@ fetch(requestURL)
     p.innerHTML = `${company.address} <span class =birthdayCss>${company.phone}</span>`
     
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', company.imageurl);
+    portrait.setAttribute('src', company.image);
     portrait.setAttribute('alt', `Portait of ${company.name } ${company.creation}`);
     portrait.setAttribute('loading', 'lazy');
   
