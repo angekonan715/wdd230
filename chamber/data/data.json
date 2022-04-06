@@ -4,117 +4,96 @@
         "name": "ONEP",
         "address": " II Plateaux Vallons Rue J93 Ilot 212 Lot 2470",
         "phone": "(+225) 27 22 51 43 00",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/onep.jpg",
         "website": "http://onepci.net/fr/acceuil/",
-        "order": 1,
         "creation": "August 23, 2006"
       },
       {
         "name": "Groupe EUROFIND",
         "address": "01 BP 20595 - Zone Portuaire Industrielle,Lomé, Togo",
         "phone": "+228 22 27 02 50 ",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/Groupe_Eurofind.jpg",
         "website": "https://www.eurofindgroup.com/",
-        "order": 1,
         "creation": "August 23, 2006"
       },
       {
         "name": "Ivory Cocoa Products (ICP)",
         "address": " Zone Portuaire de San-Pédro",
         "phone": "+225 27 20 21 00 30",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/Ivory_Cocoa_Products_ICP.jpg",
         "website": "http://onepci.net/fr/acceuil/",
-        "order": 1,
         "creation": "2010"
       },
       {
         "name": "AGEDI",
         "address": " Cocody Danga - Rue des Jasmins - 08 BP 4131 Abidjan 08 - Côte d’Ivoire",
         "phone": "+225 27 22 44 74 20",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/AGEDI.jpg",
         "website": "www.agedi.ci",
-        "order": 1,
         "creation": "May 2, 2013"
       },
       {
         "name": "ENSBTP",
         "address": " Yopougon Ananeraie - Route de Dabou - 23 BP 722 ABIDJAN 23 - Côte d’Ivoire",
         "phone": "+225 27 23 50 99 90",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/ENSBTP.jpg",
         "website": "www.ensbtp.com",
-        "order": 1,
         "creation": "Nov 1, 1997"
       },
       {
         "name": "IMMOBILIARE SA",
         "address": " Immeuble Immobiliare Riviera Faya - 27 BP 467 Abidjan 27 - Côte d’Ivoire",
         "phone": "+225 07 89 94 57 26",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/Immobiliare.jpg",
         "website": " www.immobiliare.ci",
-        "order": 1,
         "creation": "Jan 1, 2003"
       },
       {
         "name": "SOGELUX",
         "address": " Boulevard de Marseille - Treichville - Zone 2 - 18 BP 1686 Abidjan 18 - Côte d’Ivoire",
         "phone": "+225 27 21 34 99 99",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/SOGELUX.jpg",
         "website": "www.sogelux.net",
-        "order": 1,
         "creation": "june 2003"
       },
       {
         "name": "PROSUMA GROUP",
         "address": " Rue des Carrossiers – Zone 3 - 01 BP 3747 ABIDJAN 01 (RCI)",
         "phone": "(+225) 27 21 22 32 320",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/logo_header.png",
         "website": "https://groupeprosuma.com/",
-        "order": 1,
         "creation": "Jan 1, 1966"
       },
       {
         "name": "NSIA BANK",
         "address": " 8-10 avenue Joseph Anoma – 01 BP 1274 Abidjan 01 – République de Côte d'Ivoire.",
         "phone": "(+225) 07 80 200 800",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/NSIA.jpg",
         "website": "https://www.nsiabanque.ci/",
-        "order": 1,
         "creation": "Jan 1, 1995"
       },
       {
         "name": " BNETD",
         "address": "Cocody, 04 BP 945 Abidjan 04",
         "phone": "(+225) 27 22 48 34 00",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/BNETD.jpg",
         "website": "www.bnetd.ci",
-        "order": 1,
         "creation": "july 31, 1994"
-      },
-      {
-        "name": "ONEP",
-        "address": " II Plateaux Vallons Rue J93 Ilot 212 Lot 2470",
-        "phone": "(+225) 27 22 51 43 00",
-        "image": "",
-        "website": "http://onepci.net/fr/acceuil/",
-        "order": 1,
-        "creation": "August 23, 2006"
       },
       {
         "name": "MKSERVICES CONSTRUCTIONS",
         "address": "yopougon Rue J83 Ilot 212 Lot 2476",
         "phone": "(+225) 0709268686",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/telecom.jpg",
         "website": "https://www.mkservices-constructions.com/",
-        "order": 1,
         "creation": "August 4, 2018"
       },
       {
         "name": "YANN' DIGITAL TECHNOLOGIES",
         "address": " Bonoumin, Abidjan, Côte d'Ivoire",
         "phone": "(+225) 01 40 12 46 37",
-        "image": "",
+        "image": "https://angekonan715.github.io/wdd230/chamber/data/images/yanntechnologie.jpg",
         "website": "http://www.yanndigitaltechnologies.com",
-        "order": 1,
         "creation": "jan 1, 2018"
       }
      
