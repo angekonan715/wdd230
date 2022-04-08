@@ -30,6 +30,7 @@
         display: block;
 
     }
+
     header {
         background-color: #29AAFB;
         margin-left: 5vmin;
@@ -56,10 +57,11 @@
         display: block;
         grid-row: 2/3;
         grid-column: 2/3;
-        
-       
+
+
     }
-    .heading_title h1{
+
+    .heading_title h1 {
         margin-top: -3rem;
         font-size: 5vmin;
 
@@ -92,32 +94,35 @@
 
     .navigator {
         grid-row: 3/4;
-        grid-column: 2/3;
+        grid-column: 1/4;
+        padding: 1rem;
 
     }
 
     nav.navigator ul {
         padding: 1px;
-        margin: 0;
+        margin-bottom: 1rem;
         display: flex;
         justify-content: space-between;
+        justify-items: center;
+        align-content: center;
         gap: .5rem;
+        background-color: gray;
 
     }
 
     nav.navigator ul a {
         font-size: 3vmin;
-        margin-bottom: 1.5rem;
+        padding: .5rem;
         font-weight: bolder;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: gray;
-        color: white;
+        color: #29AAFB;
         border-radius: 5px 5px;
     }
 
     nav.navigator ul a:hover {
         background-color: lightcoral;
-        color: black;
+        color: gray;
     }
 
     .date {
@@ -126,6 +131,7 @@
         padding: .5rem 1rem;
         text-align: center;
         font-size: 3.5vmin;
+        color: gray;
     }
 
     /*Main*/
@@ -278,16 +284,34 @@
         border: 1px solid gray;
         filter: blur(0em);
         -webkit-filter: blur(0em);
-        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .lazyLoadingBody img {
-        width: 500px;
-        height: 600px;
+        max-width: 100%;
+        max-height: 90%;
+        grid-column: 1/2;
+        grid-row: 1/4;
 
 
     }
 
+    .lazyLoadingBody p {
+        float: right;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        font-size: 3vmin;
+    }
+
+    .lazyLoadingBody h1 {
+        color: lightcoral;
+        font-size: 5vmin;
+        font-weight: bolder;
+        background-color: gray;
+        padding: 1rem;
+
+    }
 
 
     img[data-src] {
@@ -329,6 +353,7 @@
         border-radius: 50%;
         float: left;
         padding: 0 20px 20px 0;
+
     }
 
     picture img:first-child:hover {
@@ -343,11 +368,15 @@
 
     .pict-1 img:first-child {
         border-radius: 5px 150px;
+        max-width: 90%;
+        max-height: 85%;
 
     }
 
     .pict-2 img:first-child {
         border-radius: 25%;
+        max-width: 90%;
+        max-height: 85%;
         -webkit-border-radius: 25%;
         -moz-border-radius: 25%;
         -ms-border-radius: 25%;
@@ -399,12 +428,25 @@
         -o-border-radius: 10%;
     }
 
+    .pict-9 img:first-child {
+        border-radius: 10%;
+        max-width: 90%;
+        max-height: 85%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+    }
+
 
 
     .webStorage {
+        display: flex;
+        flex-direction: column;
         background-color: #29AAFB;
-        font-size: 1.5rem;
+        font-size: 2vmin;
         padding: 1rem;
+        text-align: center;
     }
 
     .label {
@@ -435,7 +477,7 @@
         margin: auto auto;
         margin-top: 1vmin;
         margin-bottom: 4vmin;
-        
+
     }
 
     form {
@@ -499,43 +541,46 @@
         font-size: 3vmin;
         text-align: center;
     }
+
     /*directory css*/
 
-    .mainDirectory{
+    .mainDirectory {
         display: grid;
-        grid-template-columns: 50% 53% ;
-    
-        
+        grid-template-columns: 50% 53%;
+
+
     }
+
     .cards {
         grid-column: 1/2;
         display: block;
         text-align: center;
     }
 
-    .cards_2{
+    .cards_2 {
         grid-column: 2/3;
     }
 
-    .cards section{
+    .cards section {
         border: 1px solid gray;
         font-size: 2.5vmin;
         box-shadow: 0 0 10px #29AAFB;
     }
 
     .companyName {
-        color:#29AAFB;
-    }
-    .companyPhone{
         color: #29AAFB;
     }
-    
-    .cards section img{
+
+    .companyPhone {
+        color: #29AAFB;
+    }
+
+    .cards section img {
         width: 70%;
         box-shadow: 0 0 50px rgb(248, 79, 79);
     }
 
-    .cards_2 section{
+    .cards_2 section {
         display: flex;
         flex-direction: column;
         align-content: space-between;
@@ -544,9 +589,10 @@
         padding: 0.5rem;
         font-size: 2.5vmin;
         border: 1px solid gray;
-        
+
     }
-    .cards_2 section ul{
+
+    .cards_2 section ul {
         display: flex;
         flex-direction: column;
         gap: 3rem;
@@ -555,34 +601,57 @@
         align-items: center;
         padding: 0.5rem;
         font-size: 2.2vmin;
-        
-    }
-
-    .cards_2 section:nth-child(1){
-        background-color: lightblue;
 
     }
-    .cards_2 section:nth-child(3){
+
+    .cards_2 section:nth-child(1) {
         background-color: lightblue;
+
     }
-    .cards_2 section:nth-child(5){
-        background-color: lightblue;
-    }
-    .cards_2 section:nth-child(7){
-        background-color: lightblue;
-    }
-    .cards_2 section:nth-child(9){
-        background-color: lightblue;
-    }
-    .cards_2 section:nth-child(11){
+
+    .cards_2 section:nth-child(3) {
         background-color: lightblue;
     }
 
-    .companyPhone{
+    .cards_2 section:nth-child(5) {
+        background-color: lightblue;
+    }
+
+    .cards_2 section:nth-child(7) {
+        background-color: lightblue;
+    }
+
+    .cards_2 section:nth-child(9) {
+        background-color: lightblue;
+    }
+
+    .cards_2 section:nth-child(11) {
+        background-color: lightblue;
+    }
+
+    .companyPhone {
         font-size: 2.5vmin;
     }
-    .companyAddress{
+
+    .companyAddress {
         font-size: 3vmin;
+    }
+    
+    /*Address css*/
+
+    address{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+        background-color: gray ;
+        padding: .5rem;
+    }
+    address a:hover{
+        background-color: lightcoral;
+        padding: .5rem;
     }
 
     /*Footer css*/
@@ -607,14 +676,15 @@
         font-size: 3.5vmin;
 
     }
+
     footer {
         margin-left: 5vmin;
         margin-right: 5vmin;
         background-color: #29AAFB;
         padding: 10px;
-    
+
     }
-    
+
     footer div.footerInfo {
         display: flex;
         flex-direction: column;
@@ -623,13 +693,13 @@
         align-items: center;
         margin-top: 10px;
         font-size: 3.5vmin;
-    
+
     }
-    
+
     footer div.footerInfo img {
         max-width: 25%;
     }
-    
+
     footer div.footerInfo address {
         text-align: center;
     }

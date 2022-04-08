@@ -91,13 +91,11 @@
 
     .navigator {
         grid-row: 3/4;
-        grid-column: 2/3;
+        grid-column: 1/4;
 
     }
 
     nav.navigator ul {
-        padding: 0px;
-        margin: 0;
         display: flex;
         justify-content: space-between;
 
@@ -105,17 +103,20 @@
 
     nav.navigator ul a {
         font-size: 3vmin;
-        margin-bottom: 1.5rem;
+        padding: .5rem;
         font-weight: bolder;
         font-family: Arial, Helvetica, sans-serif;
         background-color: gray;
-        color: white;
+        color:#29AAFB;
         border-radius: 5px 5px;
     }
+    nav.navigator ul li{
+        display: block;
+    }
 
-    nav.navigator ul a:hover {
+    nav.navigator ul li:hover {
         background-color: lightcoral;
-        color: black;
+        
     }
     .date {
     display: block;
@@ -281,8 +282,8 @@
     }
 
     .lazyLoadingBody img {
-        width: 800px;
-        height: 500px;
+        width: 95%;
+        height: 90%;
 
 
     }
@@ -400,9 +401,12 @@
 
 
     .webStorage {
+        display: flex;
+        flex-direction: column;
         background-color: #29AAFB;
-        font-size: 1.5rem;
+        font-size: 2vmin;
         padding: 1rem;
+        text-align: center;
     }
 
     .label {
@@ -423,7 +427,7 @@
 
 
 
-    /*for css*/
+    /*form css*/
     * {
         box-sizing: border-box;
     }
@@ -505,6 +509,20 @@
         font-style: italic;
         font-size: 4vmin;
         text-align: center;
+    }
+    .thankYou a{
+        display: block;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        text-align: center;
+        font-size: 4vmin;
+        color: gray;
+    }
+    .thankYou img:hover{
+        background-color: lightcoral;
+    }
+    .thankYou span:hover{
+        background-color: lightcoral;
     }
 
     /*directory css*/
@@ -595,6 +613,25 @@
     .companyAddress{
         font-size: 3vmin;
     }
+
+    /*Address css*/
+
+    address{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+        background-color: gray ;
+        padding: .5rem;
+    }
+    address a:hover{
+        background-color: lightcoral;
+        padding: .5rem;
+    }
+
+    /*footer css*/
 
     footer div.footerInfo {
         display: flex;

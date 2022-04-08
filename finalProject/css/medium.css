@@ -1,0 +1,310 @@
+@media only screen and (min-width: 32.5em) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    html{
+        font-size: 16px;
+    }
+    
+    body{
+        width: 100%;
+        min-height: 100vh;
+        border: 2px solid gray;
+    }
+
+    
+    header{
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: rgb(65, 41, 41);
+
+    }
+
+    .logo{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .logo img{
+        width: 25%;
+    }
+
+    .pageTitle{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align: center;
+        margin-top: -4rem;
+       
+    }
+
+    .socialMedia{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        display: flex;
+        justify-content: space-between;
+        gap: .5rem;
+    }
+    .socialMedia img{
+        width: 70%;
+    }
+    .navigator{
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+    .date{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align: center;
+    }
+
+    .navigator ul{
+        display: flex;
+        justify-content: space-around;
+        background-color: darkgreen;
+    }
+
+    
+    .navigator ul li{
+        display: block;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 1rem;
+        flex: 1 1 auto; 
+    }
+    
+    .navigator #hamburgerButton {
+        display: none;
+    }
+    .navigator ul li:hover{
+        background-color: gray;
+    }
+    .navigator ul li a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+     /*Home page main css*/
+
+     .homeMain{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    .homeMain > div{
+        border: 1px solid gray;
+        padding: .5rem;
+        font-size: 3vmin;
+    }
+
+    
+
+    .temple{
+        grid-column: 2/3;
+        grid-row: 1/4;
+    
+    }
+    .temple img{
+        width: 95%;
+    }
+
+    .marriage{
+        grid-column: 1/2;
+        grid-row: 3/5;
+        background-color: darkgreen;
+    }
+    .marriage img{
+        width: 100%;
+    }
+    
+
+    .comfort{
+        grid-column: 3/4;
+        grid-row: 3/5;
+        background-color: darkgreen;
+    }
+    .comfort img{
+        width: 100%;
+
+    }
+
+    .reception{
+        grid-column: 2/3;
+        grid-row: 4/6;
+    }
+    .reception img{
+        width: 95%;
+    }
+
+    .weather{
+        grid-column: 1/2;
+        grid-row: 5/8;
+        background-color: darkgreen;
+    }
+
+    .contact{
+        grid-column: 3/4;
+        grid-row: 5/8;
+        background-color: darkgreen;
+    }
+
+    .comfort .contact{
+        border: 1px solid gray;
+    }
+
+    /*Reservation css*/
+
+.reservationHome{
+    background-image: url('images/hotelLoby.jpg');
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.reservationHome ul li{
+    text-align: center;
+    display: block;
+}
+
+.reservationHome h3{
+    text-align: center;
+    color: darkgreen;
+    font-size: 3.5vmin;
+    font-weight: bolder;
+}
+
+.reservationHome p{
+    font-size: 3vmin;
+    color: black;
+}
+
+
+
+.reservationHome img{
+    width: 100%;
+
+    
+}
+
+.form {
+    grid-row: 1/6;
+    grid-column: 2/3;
+    border: 1px solid #bbb;
+    padding: 0.5rem;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.standardRom{
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+.deluxe{
+    grid-row: 3/6;
+    grid-column: 1/2;
+}
+
+.juniorSuite{
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+
+.Suite{
+    grid-row: 3/6;
+    grid-column: 3/4;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+    font-size: 2vmin;
+}
+
+label {
+    grid-column: 1/2;
+    text-align: center;
+}
+input{
+    grid-column: 2/3;
+    background-color:  rgb(226, 155, 68);
+    
+}
+
+textarea{
+    grid-column: 1/3;
+    background-color:  rgb(226, 155, 68);;
+}
+#button{
+    grid-column: 1/3;
+    margin-left: 10em;
+    margin-right: 10em;
+    background-color: darkgreen;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #bed;
+}
+
+
+
+    /*footer css*/
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(65, 41, 41);
+        padding: .5rem;
+    }
+
+    .footerInfo{
+        text-align: center;
+        font-size: 2.5vmin;
+    }
+
+    footer img{
+        position: none;
+        width: 5%;
+
+    }
+
+    footer ul{
+        text-align: center;
+        font-size: 2.5vmin;
+        
+    }
+    footer ul li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+
+}
+
+

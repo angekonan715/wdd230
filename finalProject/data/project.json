@@ -1,0 +1,45 @@
+{
+    "temples": [
+      {
+        "name": "ACCRA TEMPLE",
+        "address": "57 Independence Ave, North Ridge P.M.B. CT 209, Cantonments, Accra, Ghana,",
+        "phone": "(233) 302-650-123",
+        "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/800x450/accra-ghana-temple-detail-249022-2400x1200.jpg",
+        "announced": "16 February 1998",
+        "Groundbreaking": "16 November 2001",
+        "Dedication": "11 January 2004",
+        "Temple Closures": "Saturday, 7 January 2023"
+      },
+      {
+        "name": "ABA TEMPLE",
+        "address": "72-80 Okpu-Umuobo Rd Aba Abia State, Nigeria",
+        "phone": "(234) 80-3903-4810",
+        "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/800x500/aba-nigeria-temple-lds-273999-wallpaper.jpg",
+        "announced": "2 April 2000",
+        "Groundbreaking": "23 February 2002",
+        "Dedication": "7 August 2005",
+        "Temple Closure": "Saturday, 20 August 2022"
+      },
+      {
+        "name": "ITALY TEMPLE",
+        "address": "Via di Settebagni 376 Rome RM Italy",
+        "phone": "(39) 06-9480-5050",
+        "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/800x500/6-Rome-Temple-2160338.jpg",
+        "announced": "4 October 2008",
+        "Groundbreaking": "23 October 2010",
+        "Dedication": "10 March 2019",
+        "Temple Closures": "Monday, 19 September 2022"
+      },
+      {
+        "name": "ATLANTA GEORGIA TEMPLE",
+        "address": "6450 Barfield Rd NE Sandy Springs GA 30328-4283 United States",
+        "phone": "(1) 770-393-3698",
+        "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/atlanta-georgia/800x500/atlanta-temple-lds-811746-wallpaper.jpg",
+        "announced": "2 April 1980",
+        "Groundbreaking": "7 March 1981",
+        "Dedication": "1 June 1983",
+        "Temple Closures": "Saturday, 30 April 2022 "
+      }
+ 
+    ]
+  }
