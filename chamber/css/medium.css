@@ -120,6 +120,11 @@
         border-radius: 5px 5px;
     }
 
+    nav.navigator ul li{
+        flex: 1 1 auto;
+
+    }
+
     nav.navigator ul a:hover {
         background-color: lightcoral;
         color: gray;
@@ -689,6 +694,60 @@ figcaption{
     font-weight: bolder;
     margin-top: 1rem;
     font-size: 3vmin;
+}
+
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+.contact label,
+input,
+textarea,
+select,
+button {
+    font-size: 1.1rem;
+}
+
+.contact label {
+    grid-column: 1/2;
+    text-align: center;
+}
+.contact input{
+    grid-column: 2/3;
+    
+}
+
+.contact textarea{
+    grid-column: 1/3;
+}
+#button{
+    grid-column: 1/3;
+    margin-left: 10em;
+    margin-right: 10em;
+    background-color: darkgreen;
+}
+
+.contact input:focus,
+textarea:focus,
+select:focus {
+    background-color: #bed;
+}
+
+.contact button {
+    grid-column: 1/3;
+    background-color: lightcoral;
 }
 
 

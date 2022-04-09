@@ -112,6 +112,7 @@
         font-weight: bolder;
         padding: .3rem .2vw;
         border-top: 1px solid rgba(0, 0, 0, 0.2);
+        flex: 1 1 auto;
 
     }
 
@@ -588,6 +589,58 @@
         background-color: lightcoral;
         padding: .5rem;
     }
+
+    .contact{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+.contact label,
+input,
+textarea,
+select,
+button {
+    font-size: 1.1rem;
+}
+
+.contact label {
+    grid-column: 1/2;
+    text-align: center;
+}
+.contact input{
+    grid-column: 2/3;
+    
+}
+
+.contact textarea{
+    grid-column: 1/3;
+}
+#button{
+    grid-column: 1/3;
+    margin-left: 10em;
+    margin-right: 10em;
+    background-color: darkgreen;
+}
+
+.contact input:focus,
+textarea:focus,
+select:focus {
+    background-color: #bed;
+}
+
+.contact button {
+    grid-column: 1/3;
+    background-color: lightcoral;
+}
 
     /*Style footer */
     footer {

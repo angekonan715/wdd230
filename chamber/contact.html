@@ -51,7 +51,7 @@
         </div>
         <div class="date"> </div>
     </header>
-    <main class="mainForm">
+    <main class="contact">
         <h1>Please Fill This Form</h1>
         <form action="https://angekonan715.github.io/wdd230/chamber/thankYou.html">
             <label for="fname">Fist Name: </label>
@@ -64,22 +64,34 @@
             <input type="email" name="email" id="email" placeholder="username@gmail.com" required>
             <label for="cphone">Cell Phone Number: </label>
             <input type="tel" name="cphone" id="cphone" required>
-            <label for="bname">Business Name: </label>
-            <input type="text" name="bname" id="bname" required>
-            <label for="levels">Membership Level: </label>
-            <input list="levels" name="level" id="mlevel" required>
-            <datalist id="levels">
-                <option value="NP Membership(no fee)">
-                <option value="Bronze Membership">
-                <option value="Silver Membership">
-                <option value="Gold Membership">
-            </datalist>
-            <label for="Bdescription">Business Description:</label>
-            <textarea name="Business Description" rows="10" placeholder="Describe your business here"></textarea>
+            <textarea name="Business Description" rows="10" placeholder="Ask Your uestion Here"></textarea>
             <input type="hidden" name="dateTime" id="hiddenDate">
             <button id="btnSubmit" type="submit">Submit</button>
 
         </form>
+
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=saint%20jean,%20Abidjan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://fmovies-online.net"></a><br>
+                <style>
+                    .mapouter {
+                        text-align: center;
+                        height: 100%;
+                        width: 90%;
+                    }
+                </style><a href="https://www.embedgooglemap.net"></a>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 100%;
+                        width: 100%;
+                    }
+                </style>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footerInfo">
@@ -90,29 +102,7 @@
                 Abidjan, Cote d'Ivoire 22<br><br>
                 info@abidjanc.com<br><br>
             </address>
-            <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=saint%20jean,%20Abidjan&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                        href="https://fmovies-online.net"></a><br>
-                    <style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 181px;
-                            width: 201px;
-                        }
-                    </style><a href="https://www.embedgooglemap.net"></a>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 181px;
-                            width: 201px;
-                        }
-                    </style>
-                </div>
-            </div>
+            
 
         </div>
         <hr>
