@@ -7,7 +7,7 @@ headerDate.innerHTML = `<em>${headerfulldate}</em>`;
 
 function toggleMenu() {
     document.getElementById("hamburgerButton").classList.toggle("open");
-    document.getElementById("navUl").classList.toggle("open");
+    document.getElementById("idlist").classList.toggle("open");
 }
 
 
@@ -47,7 +47,7 @@ function displaytemples(temple) {
     let p = document.createElement('p');
 
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.innerHTML = `<span class = 'templeName'>${temple.name}</span> <br> Temple Closure: ${temple.Closures}`;
+    h2.innerHTML = `<span class = 'templeName'>${temple.name}</span> <br> <span class= "templeClosure">Temple Closure: ${temple.Closures}</span>`;
     p.innerHTML = `<span class='templeAddress'>${temple.address}</span> <br> <span class = 'templePhone'>${temple.phone}</span>`;
     p.innerHTML = `Announced:${temple.announced}<br> Groundbreaking: ${temple.Groundbreaking}<br> Dedication:${temple.Dedication}`
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
