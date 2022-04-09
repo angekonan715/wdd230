@@ -224,7 +224,7 @@
         color: yellowgreen;
     }
 
-    
+
     /*Discover.html css*/
     .lazyLoadingBody {
         display: flex;
@@ -531,20 +531,60 @@
         background-color: lightblue;
     }
 
-    
+
+    /*Weather API CSS*/
+
+    .weather {
+        border: 2px solid gray;
+        width: 350px;
+        background-color: darkgreen;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #weathericon {
+        width: 30%;
+    }
+
+    figure p {
+        position: relative;
+        top: -4.5rem;
+        left: 7rem;
+        font-size: 4.5vmin;
+        font-weight: bolder;
+    }
+
+    figcaption {
+        font-size: 3.5vmin;
+        margin-top: -2rem;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+    }
+
+    .lastPara {
+        color: rgb(65, 41, 41);
+        font-weight: bolder;
+        margin-top: 1rem;
+        font-size: 3vmin;
+    }
+
+
+
     /*Address css*/
 
-    address{
+    address {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1rem;
         text-align: center;
-        background-color: gray ;
+        background-color: gray;
         padding: .5rem;
     }
-    address a:hover{
+
+    address a:hover {
         background-color: lightcoral;
         padding: .5rem;
     }

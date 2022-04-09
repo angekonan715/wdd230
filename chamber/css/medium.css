@@ -654,6 +654,44 @@
         padding: .5rem;
     }
 
+    
+/*Weather API CSS*/
+
+.weather{
+    border: 2px solid gray;
+    width: 350px;
+    background-color: darkgreen;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#weathericon{
+    width: 30%;
+}
+figure p{
+    position: relative;
+    top:-4.5rem;
+    left: 7rem;
+    font-size: 4.5vmin;
+    font-weight: bolder;
+}
+
+figcaption{
+    font-size: 3.5vmin;
+    margin-top: -2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.lastPara{
+    color:rgb(65, 41, 41) ;
+    font-weight: bolder;
+    margin-top: 1rem;
+    font-size: 3vmin;
+}
+
+
     /*Footer css*/
 
     footer div.footerInfo {

@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Kouadio Ange Konan">
     <script defer src="js/index.js"></script>
+    <script defer src="js/weatherapi.js"></script>
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
@@ -92,10 +93,19 @@
                 <a href="reception.html">Check them Here</a>
             </p>
         </div>
-        <diV class="weather">
-            <h3>Weather</h3>
-
-        </diV>
+        <div class="weather">
+            <h1 class="weatherHead"></h1>
+            <figure>
+                <img src="" alt="" id="weathericon" />
+                <p><span id="current-temp"></span> &deg;C</p>
+               
+            </figure>
+    
+            <figcaption></figcaption>
+            <hr>
+            <div class="weatherDiv"> </div>
+           
+        </div>
         <diV class="contact">
             <h3>Map</h3>
             <div class="mapouter">

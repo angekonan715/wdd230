@@ -29,3 +29,5 @@ var hours = now.getHours();
 var mins = now.getMinutes();
 var seconds = now.getSeconds();
 dateTime.value = `${now.toDateString()} ${hours} : ${mins} : ${seconds}`;
+
+

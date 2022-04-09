@@ -466,6 +466,37 @@
     list-style-type: none;
 }
 
+
+/*Weather API CSS*/
+
+.weather{
+    border: 2px solid gray;
+    width: 100%;
+    background-color: darkgreen;
+    text-align: center;
+}
+#weathericon{
+    width: 30%;
+}
+figure p{
+    margin-top: -1rem;
+    font-size: 4.5vmin;
+    font-weight: bolder;
+}
+
+figcaption{
+    font-size: 3.5vmin;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.lastPara{
+    color:rgb(65, 41, 41) ;
+    font-weight: bolder;
+    margin-top: 1rem;
+    font-size: 3vmin;
+}
+
     /*footer css*/
 
     footer {
